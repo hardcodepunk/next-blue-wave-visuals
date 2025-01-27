@@ -12,17 +12,17 @@ const VideoDisplay = (props: IVideoDisplay) => {
       <Overlay></Overlay>
       <VideoBody>
         <VideoCaption variant="h3">
-          Events and coaching all ages.<br></br>By and for the{' '}
+          Video and photography storytelling.<br></br>By a{' '}
           <Emphasis variant="h1" component="span">
             {' '}
-            inline skate{' '}
+            dynamic{' '}
           </Emphasis>
-          community.
+          duo.
         </VideoCaption>
 
         {routes.map((r, i) => {
           if (i === 0) {
-            return <CallToAction key={r.title} handleScrollTo={handleScrollTo} location={'#' + r.anchor} label="Learn to skate"></CallToAction>
+            return <CallToAction key={r.title} handleScrollTo={handleScrollTo} location={'#' + r.anchor} label="Book a call"></CallToAction>
           }
           return null
         })}

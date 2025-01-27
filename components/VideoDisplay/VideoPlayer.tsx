@@ -3,7 +3,7 @@ import lozad from 'lozad' // lazyloading
 import { useEffect } from 'react'
 
 const VideoPlayer = () => {
-  const cloudinaryMp4URL = 'https://res.cloudinary.com/hardcodepunk/video/upload/v1701940586/cw2egrtiegzaljg3347k.mp4'
+  const cloudinaryMp4URL = 'https://res.cloudinary.com/hardcodepunk/video/upload/v1737957147/wsuszohtmu2pks673muc.mp4'
   const cloudinaryWebmURL = 'https://res.cloudinary.com/hardcodepunk/video/upload/v1701949596/zfrqvj08czjna2zaupf8.webm'
 
   useEffect(() => {
