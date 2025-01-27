@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "incremental": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"],
+      "@util/*": ["util/*"],
+      "@repository/*": ["repository/*"],
+      "@context/*": ["context/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@hooks/*": ["hooks/*"],
+      "@enums/*": ["enums/*"],
+      "@pages/*": ["pages/*"],
+      "@theme/*": ["src/theme/*"],
+      "@lib/*": ["lib/*"],
+      "@models/*": ["models/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    "pages/indextsx",
+    "next-env.d.ts",
+    "next-auth.d.ts",
+    "src/models/shop-item-redeem.ts"
+  ],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}
