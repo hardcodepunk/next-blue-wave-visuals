@@ -14,13 +14,13 @@ const Footer = dynamic(() => import('../components/Sections/SectionFooter/Wrappe
 
 const routes = [
   {
-    anchor: 'learn',
-    title: 'Learn',
+    anchor: 'services',
+    title: 'Services',
     linkRef: createRef<HTMLDivElement>(),
   },
   {
-    anchor: 'events',
-    title: 'Events',
+    anchor: 'about',
+    title: 'About',
     linkRef: createRef<HTMLDivElement>(),
   },
   {
