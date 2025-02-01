@@ -12,7 +12,7 @@ const VideoDisplay = (props: IVideoDisplay) => {
       <Overlay></Overlay>
       <VideoBody>
         <VideoCaption variant="h3">
-          Video and photography storytelling.<br></br>By a{' '}
+          Audiovisual storytelling.<br></br>By a{' '}
           <Emphasis variant="h1" component="span">
             {' '}
             dynamic{' '}
