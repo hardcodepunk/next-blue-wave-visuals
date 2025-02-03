@@ -33,7 +33,7 @@ export default function MyApp(props: MyAppProps) {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="description" content="Learn to inline skate, attend rollerblade contests and events. By and for the inline community." />
-        <title>Blue Wave Visuals | Audiovisual Storytelling</title>
+        <title>Blue Wave Visuals | Video & Photography</title>
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />

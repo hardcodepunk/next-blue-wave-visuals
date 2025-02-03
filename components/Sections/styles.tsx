@@ -14,16 +14,11 @@ export const Section = styled(Grid)(
       &.inverted {
         background: ${theme.palette.primary.main};
         h2, h3, h4, h5, p {
-          color: ${theme.palette.common.white};
+          color: ${theme.palette.secondary.main};
         }
         .MuiSvgIcon-root {
-          color: ${theme.palette.common.white};
+          color: ${theme.palette.secondary.main};
           transition: all 0.4s ease-out;
-        }
-        .MuiIconButton-root:hover {
-          .MuiSvgIcon-root {
-            color: ${theme.palette.primary.main};
-          }
         }
       }
 
