@@ -6,6 +6,7 @@ import dynamic from 'next/dynamic'
 // Components
 const NavBar = dynamic(() => import('../components/NavBar'), { ssr: false })
 import VideoDisplay from '../components/VideoDisplay'
+import FluidBackground from '../components/FluidBackground'
 
 const SectionLearn = dynamic(() => import('../components/Sections/SectionLearn/WrappedSectionLearn'), { ssr: false })
 const SectionEvents = dynamic(() => import('../components/Sections/SectionEvents/WrappedSectionEvents'), { ssr: false })
@@ -56,6 +57,7 @@ const Home = () => {
   return (
     <>
       <NavBar routes={routes} handleScrollTo={handleScrollTo} />
+      <FluidBackground />
       <VideoDisplay routes={routes} handleScrollTo={handleScrollTo} />
       <SectionLearn sectionLearnRef={routes[0].linkRef} />
       <SectionEvents sectionEventsRef={routes[1].linkRef} />

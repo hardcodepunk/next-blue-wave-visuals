@@ -12,7 +12,7 @@ export const Section = styled(Grid)(
       padding: 180px 14% 200px;
 
       &.inverted {
-        background: ${theme.palette.primary.main};
+        
         h2, h3, h4, h5, p {
           color: ${theme.palette.secondary.main};
         }
